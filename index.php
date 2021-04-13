@@ -20,8 +20,8 @@ require_once 'php/init.php';
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="icon" href="img/favicon.ico" />
-    <title>Maneila Tea</title>
+    <link rel="icon" href="img/favicon.png" />
+    <title>Ma neil La Tea</title>
   </head>
   <body>
     <!-- NavBAR -->
@@ -36,14 +36,18 @@ require_once 'php/init.php';
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
               <a class="nav-item nav-link active navitem" href="#Home">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link navitem" href="#FoodChoice">Gallery</a>
+              <a class="nav-item nav-link navitem" href="#gallery">Gallery</a>
               <a class="nav-item nav-link navitem" href="#ourchef">About Us</a>
-              <a class="nav-item nav-link navitem" href="#ourchef">Review</a>
+              <a class="nav-item nav-link navitem" href="testimonial.php">Review</a>
             </div>
           </div>
         </nav>
       </div>
     </div>
+    <section class="gallerySec" id="gallery">
+    
+
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
