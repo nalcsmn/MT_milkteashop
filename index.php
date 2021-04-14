@@ -28,27 +28,27 @@ require_once 'php/init.php';
 </head>
 
 <body>
-<section class="heder" id="title">
-  <div class="container-fluid navcon">
-    <div class="container">
-      <nav class="navbar navbar-expand-md   pt-md-2 mb-5">
-        <img src="img/logo.png" class="img-fluid logo" />
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active navitem" href="#Home">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link navitem" href="#gallery">Gallery</a>
-            <a class="nav-item nav-link navitem" href="#AboutUs">About Us</a>
-            <a class="nav-item nav-link navitem" href="#Review">Review</a>
-            <a class="nav-item nav-link navitem" href="testimonial.php">Admin</a>
+  <section class="heder" id="title">
+    <div class="container-fluid navcon">
+      <div class="container">
+        <nav class="navbar navbar-expand-md   pt-md-2 mb-5">
+          <img src="img/logo.png" class="img-fluid logo" />
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active navitem" href="index.php">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link navitem" href="#gallery">Gallery</a>
+              <a class="nav-item nav-link navitem" href="#Aboutuz">About Us</a>
+              <a class="nav-item nav-link navitem" href="#Review">Review</a>
+              <a class="nav-item nav-link navitem" href="testimonial.php">Admin</a>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
-  </div>
-  
+
     <div class="container-fluid heds">
       <div class="row">
         <div class="col-lg-6">
@@ -66,76 +66,125 @@ require_once 'php/init.php';
   </section>
 
   <section class="gallerySec" id="gallery">
-  <div class="container gallery-container">
+    <div class="container gallery-container">
 
-<h1 >Gallery</h1>
+      <h1>Gallery</h1>
 
-<p class="page-description text-center">Ma neil La TEA Collection</p>
+      <p class="page-description text-center">Ma neil La TEA Collection</p>
 
-<div class="tz-gallery">
+      <div class="tz-gallery">
 
-    <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
-        </div>
-        <div class="col-sm-6 col-md-4">
+          </div>
+          <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-                <img src="img/g1.jpg" alt="Park">
+              <img src="img/g1.jpg" alt="Park">
             </a>
             <h2>Ma Neil LA TEA</h2>
+          </div>
         </div>
+
+      </div>
+
     </div>
 
-</div>
-
-</div>
-
   </section>
+
+  <section class="Aboutuz">
+    <div class="carous">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-controls">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('img/s1.jpg')"></li>
+            <li data-target="#carousel" data-slide-to="1" style="background-image:url('img/s2.jpg')"></li>
+            <li data-target="#carousel" data-slide-to="2" style="background-image:url('img/s3.jpg')"></li>
+
+          </ol>
+          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <img src="img/left-arrow.svg" alt="Prev">
+          </a>
+          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <img src="img/right-arrow.svg" alt="Next">
+          </a>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image:url('img/s1.jpg')">
+            <div class="container">
+              <h2>About Us</h2>
+              <p>Ma Neil LA TEA</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image:url('img/s2.jpg')">
+            <div class="container">
+              <h2>I'm Neil <br />Owner of</h2>
+              <p>Ma Neil LA TEA</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image:url('img/s3.jpg')">
+            <div class="container">
+              <h2>BRAND STORY</h2>
+              <p>Ma Neil LA TEA was founded at Philippines 2021, and from there it has delivered consistently. In terms of bubble tea, Ma Neil LA TEA now has become the
+                leading brand in the fresh tea beverage industry. <br/>
+
+                Ma Neil LA TEA continues to embrace tradition and unleash bold innovations to be a leading brand in the freshly-made drinks industry.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
