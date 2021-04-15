@@ -19,8 +19,8 @@ class view extends config{
             echo "<tr>";
             echo "<td>$data[comment]</td>";
             echo "<td>
-                <a class='btn btn-info btn-sm' href='testimonial.php?edit=$data[id]'> Mark as Completed</a>
-                <a class='btn btn-danger btn-sm' href='testimonial.php?delete=$data[id]'> Delete Task</a>
+                <a class='btn btn-info btn-sm' href='testimonial.php?edit=$data[id]'> Post Feedback</a>
+                <a class='btn btn-danger btn-sm' href='testimonial.php?delete=$data[id]'> Delete Feedback</a>
                 </td>";
 
             echo "</tr>";
