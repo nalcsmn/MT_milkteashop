@@ -346,6 +346,15 @@ html {
 
 /* review */
 
+.reviewP h1 {
+  padding-top: 10px;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+
+  color: #9c3d54;
+  font-weight: bold;
+  font-size: 100px;
+}
 
 .revs {
   padding: 3% 10% 7%;
@@ -355,12 +364,107 @@ html {
 
 .reviewP{
 	min-height: 100vh;
-	background-position: center;
-	background-size: cover;
-
-  
-
+   background-image:linear-gradient(
+    rgba(200, 200, 200, 0.69),
+    rgba(200, 200, 200, 0.69)
+  ), url(https://images.pexels.com/photos/4710929/pexels-photo-4710929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
 }
+
+.reviewP .revh1{
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  color:  #9c3d54;
+}
+.reviewP .revp{
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2 rem;
+}
+footer {
+  height: 10vh;
+  background-color: #98ddca;
+  color:#046582;;
+  font-size: 0.75rem;
+  padding: 20px 0 20px;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color:#046582;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #ffaaa7;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-twit:link,
+.footer-twit:visited {
+  text-decoration: none;
+  color: #046582;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-twit:hover,
+.footer-twit:active {
+  color: #ffaaa7;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-fb:link,
+.footer-fb:visited {
+  text-decoration: none;
+  color: #046582;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-fb:hover,
+.footer-fb:active {
+  color: #ffaaa7;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.footer-note {
+  font-family: "New Tegomin", serif;
+  padding: 10px 10px;
+}
+
+
+.rtbutton{
+  
+  position: fixed;
+  bottom: 30px;
+  right:30px;
+  z-index: 99;
+}
+.rtbutton a:link,
+.rtbutton a:visited{
+  color: #310b0b;
+}
+
 
 @media(max-width: 768px) {
   body {

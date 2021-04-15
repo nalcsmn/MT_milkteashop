@@ -1,8 +1,8 @@
 <?php?><?php
 
 function insertReview(){
-    if (!empty($_GET['items'])) {
-        $insert = new insert($_GET['items']);
+    if (!empty($_GET['comment'])) {
+        $insert = new insert($_GET['comment']);
         if ($insert->insertTask()) {
           echo '<script language="javascript">';
           echo 'alert("Review Successfully Submit")';

@@ -50,8 +50,9 @@ class view extends config{
              </thead><tbody>";
         foreach($result as $data){
             echo "<tr>";
-            echo "<td>$data[name]</td>";
+         
             echo "<td>$data[comment]</td>";
+            echo "<td>$data[date_posted]</td>";
      
             echo "</tr>";
 
@@ -70,28 +71,16 @@ class view extends config{
         $result = $data->fetchAll(PDO::FETCH_ASSOC);
         // return $result;
        
-
-
-
-
-        // echo "<h3 class='mb-4 mt-5'>Completed Task</h3>";
-        // echo "<table class='table table-dark table-striped table-sm'>";
-        // echo "<thead>
-        //     <tr>
-        //          <th>Reviews Approved</th>
-              
-        //     </tr>
-        //      </thead><tbody>";
         foreach($result as $data){
-            echo "<div class='card' style='width: 18rem;'>";
-            echo "<div class='card-body'>";
-            echo "  <h5 class='card-title'>Anonymous</h5>";
-            echo "  <p class='card-text'>$data[comment]</p>";
-          
-            echo " </div>";
+            echo "  <div class='container-fluid heds'>";
             echo "</div>";
-      
-     
+            echo "    <div class='jumbotron'>";
+            echo "    <h1  class='display-4 revh1'>Ma Neil LA tEA Addict!</h1>";
+            echo "    <p class='lead revp'>$data[comment]</p>";
+            echo "   <hr class='my-4'>";
+           
+            echo " </div>";
+         
 
         }
 

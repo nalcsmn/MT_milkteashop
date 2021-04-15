@@ -13,7 +13,7 @@ class edit extends config
 
         $con = $this->con();
 
-        $sql = "UPDATE `tbl_review` SET `status`= 'COMPLETED',`date_completed`=NOW() WHERE `id` = '$this->id'";
+        $sql = "UPDATE `tbl_review` SET `status`= 'COMPLETED',`date_posted`=NOW() WHERE `id` = '$this->id'";
 
         $data = $con->prepare($sql);
         // var_dump($data);

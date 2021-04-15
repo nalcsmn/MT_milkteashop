@@ -21,6 +21,11 @@ $con->con();
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script src="https://kit.fontawesome.com/60697567a5.js" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
   <link rel="icon" href="img/favicon.png" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap" rel="stylesheet">
@@ -41,7 +46,7 @@ $con->con();
               <a class="nav-item nav-link active navitem" href="index.php">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link navitem" href="#gallery">Gallery</a>
               <a class="nav-item nav-link navitem" href="#Aboutuzz">About Us</a>
-              <a class="nav-item nav-link navitem" href="#Revs">Review</a>
+              <a class="nav-item nav-link navitem" href="#zxc">Review</a>
               <a class="nav-item nav-link navitem" href="testimonial.php">Admin</a>
             </div>
           </div>
@@ -83,51 +88,51 @@ $con->con();
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g2.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Succulents and Origami</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g3.png" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Boba Milk Tea</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g4.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Bubble Milk Tea</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g5.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>ARCHAN CHAN TEA</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g6.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Hong Kong style Tea</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g7.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Macha TEA</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g8.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Brown Sugar Milk Tea</h2>
           </div>
           <div class="col-sm-6 col-md-4">
             <a class="lightbox">
-              <img src="img/g1.jpg" alt="Park">
+              <img src="img/g9.jpg" alt="Park">
             </a>
-            <h2>Ma Neil LA TEA</h2>
+            <h2>Earl Grey Bubble Tea</h2>
           </div>
         </div>
 
@@ -181,36 +186,53 @@ $con->con();
     </div>
   </section>
 
-  <section class="Aboutuz" id="Aboutuzz">
+  <section class="Aboutuz" id="zxc">
     <div class="container-fluid revs">
       <?php
       insertReview();
       ?>
-      <form action="" method="GET">
-        <div class="row">
-          <div class="col-md-12 form-group ">
-            <input class="form-control" class="align-center" type="text" name="items" placeholder="Enter your review! " required />
 
+      <form action="" method="GET">
+        <div class="text-center mb-4">
+          <img class="mb-4" src="img/logo.png" alt="" width="72" height="72">
+          <h1 class="h3 mb-3 font-weight-normal">Ma Neil La TEA</h1>
+        </div>
+        <div class="form-label-group">
+          <div class="form-label-group">
+            <input class="form-control" class="align-center" type="text" name="comment" placeholder="Enter your review! " required />
+            <label for="inputPassword">Review</label>
+          </div>
+          <div class="checkbox mb-3">
           </div>
           <div class="col-md">
-            <input class="btn review-button" type="submit" value="Submit" />
+            <input class="btn review-button" type="submit" name="save" value="Submit" />
           </div>
-        </div>
       </form>
-      </div>
+    </div>
   </section>
-  <section class="reviewP" id="Aboutuzz">
+
+  <section class="reviewP" id="reviewID">
     <div class="container-fluid revs">
-    <?php
+    <h1>Gallery</h1>
+      <?php
       $view = new view();
       // var_dump($view->viewData());
       $view->viewGui();
-    
-      ?>
-      </div>
-  </section>
 
-  
+      ?>
+    </div>
+
+  </section>
+  <footer>
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-twit" href="https://twitter.com/">Twitter</a>
+    <a class="footer-fb" href="https://www.facebook.com/nalcsmn">facebook</a>
+    <p class="footer-note">© 2021 Neil LACSAMANA.</p>
+  </footer>
+  <div class="rtbutton">
+    <a href="#title"><i class="fas fa-chevron-circle-up"></i></a>
+  </div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
