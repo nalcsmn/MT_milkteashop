@@ -59,7 +59,7 @@ $con->con();
         <div class="col-lg-6">
           <h1 class="big-heading">A true stress buster<br />Ma neil LA TEA.</h1>
           <button type="button" class="btn btn-dark btn-lg review-button">
-            <i class="fab fa-apple"></i> Review Now
+            <i ></i> Review Now
           </button>
         </div>
 
