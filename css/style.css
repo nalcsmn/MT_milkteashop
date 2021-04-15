@@ -374,20 +374,30 @@ html {
 
 .reviewP .revh1{
   font-family: "Indie Flower", cursive;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1.5;
   letter-spacing: 4px;
   word-spacing: 4px;
-  margin-bottom: 30px;
-  padding-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 20px;
   color:  #9c3d54;
 }
 .reviewP .revp{
   text-align: center;
   max-width: 800px;
-  margin: 20px auto;
+  margin: 10px auto;
   font-family: 'Architects Daughter', cursive;
   font-size: 2 rem;
+}
+
+.jumbotron{
+  padding: 10px 10px;
+  margin-bottom: 1rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+.jumbotron {
+  padding: 1rem 1rem;
 }
 footer {
   height: 10vh;
@@ -399,12 +409,18 @@ footer {
   font-family: "Lora", serif;
 }
 
+.rex{
+  padding: 10px 10px;
+}
+
+
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
   color:#046582;
   transition: 0.5s;
   margin: 5px;
+  
 }
 
 .footer-link:hover,
@@ -464,6 +480,7 @@ footer {
 .rtbutton a:visited{
   color: #310b0b;
 }
+
 
 
 @media(max-width: 768px) {

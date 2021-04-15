@@ -39,9 +39,10 @@ class view extends config{
         $data->execute();
         $result = $data->fetchAll(PDO::FETCH_ASSOC);
         // return $result;
-        echo "<h3 class='mb-4 mt-5'>Completed Task</h3>";
-        echo "<table class='table table-dark table-striped table-sm'>";
-        echo "<thead>
+
+        echo "<h3 class='mb-4 mt-5 '>Posted Reviews</h3>";
+        echo "<table class='table table-light table-striped table-sm'>";
+        echo "<thead > 
             <tr>
             <th>name</th>
                  <th>Reviews Approved</th>
@@ -50,7 +51,7 @@ class view extends config{
              </thead><tbody>";
         foreach($result as $data){
             echo "<tr>";
-         
+            echo "<td>$data[namez]</td>";
             echo "<td>$data[comment]</td>";
             echo "<td>$data[date_posted]</td>";
      
@@ -65,22 +66,22 @@ class view extends config{
 
     public function viewGui(){
         $con = $this->con();
-        $sql = "SELECT * FROM `tbl_review` WHERE `status` = 'COMPLETED'";
+        $sql = "SELECT * FROM tbl_review WHERE status = 'COMPLETED'";
         $data = $con->prepare($sql);
         $data->execute();
         $result = $data->fetchAll(PDO::FETCH_ASSOC);
         // return $result;
        
         foreach($result as $data){
-            echo "  <div class='container-fluid heds'>";
-            echo "</div>";
+            echo "  <div class='container-fluid rex'>";
+            
             echo "    <div class='jumbotron'>";
-            echo "    <h1  class='display-4 revh1'>Ma Neil LA tEA Addict!</h1>";
+            echo "    <h1  class='display-4 revh1'>$data[namez]</h1>";
             echo "    <p class='lead revp'>$data[comment]</p>";
             echo "   <hr class='my-4'>";
            
             echo " </div>";
-         
+            echo "</div>";
 
         }
 

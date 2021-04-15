@@ -1,19 +1,23 @@
 <?php
 class insert extends config
 {
-    public $task;
+    public $name;
+    public $comment;
 
-    public function __construct($task)
+    public function __construct($name,$comment)
     {
-        $this->task = $task;
+        $this->name = $name;
+        $this->comment = $comment;
     }
 
+
+    
     public function insertTask()
     {
 
         $con = $this->con();
 
-        $sql = "INSERT INTO `tbl_review`(`comment`)VALUES('$this->task')";
+        $sql = "INSERT INTO tbl_review(namez,comment)VALUES('$this->name','$this->comment')";
 
         $data = $con->prepare($sql);
         // var_dump($data);

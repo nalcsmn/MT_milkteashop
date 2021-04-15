@@ -18,6 +18,7 @@ require_once 'php/init.php';
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="icon" href="img/favicon.png" />
   <title>Ma neil La Tea</title>
@@ -25,6 +26,7 @@ require_once 'php/init.php';
 
 <body>
   <!-- NavBAR -->
+  <section class="heder" id="title">
   <div class="container-fluid navcon">
       <div class="container">
         <nav class="navbar navbar-expand-md   pt-md-5 mb-5">
@@ -42,7 +44,7 @@ require_once 'php/init.php';
         </nav>
       </div>
     </div>
-    <section>
+    
   <div class="container mt-5">
     <?php
 
@@ -61,7 +63,7 @@ require_once 'php/init.php';
 
 
   </div>
-
+  </section>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

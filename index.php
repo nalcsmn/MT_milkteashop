@@ -59,12 +59,12 @@ $con->con();
         <div class="col-lg-6">
           <h1 class="big-heading">A true stress buster<br />Ma neil LA TEA.</h1>
           <button type="button" class="btn btn-dark btn-lg review-button">
-            <i ></i> Review Now
+            <i></i> Review Now
           </button>
         </div>
 
         <div class="col-lg-6">
-          <img class="title-image" href="#Revs" src="img/melktea.png" alt="melktea-mockup" />
+          <img class="title-image" href="#zxc" src="img/melktea.png" alt="melktea-mockup" />
         </div>
       </div>
     </div>
@@ -199,8 +199,10 @@ $con->con();
         </div>
         <div class="form-label-group">
           <div class="form-label-group">
-            <input class="form-control" class="align-center" type="text" name="comment" placeholder="Enter your review! " required />
+            <label for="inputPassword">Name</label>
+            <input class="form-control" class="align-center" type="text" name="name" placeholder="Enter your Name! " required />
             <label for="inputPassword">Review</label>
+            <input class="form-control" class="align-center" type="text" name="comment" placeholder="Enter your Feedback! " required />
           </div>
           <div class="checkbox mb-3">
           </div>
@@ -213,7 +215,7 @@ $con->con();
 
   <section class="reviewP" id="reviewID">
     <div class="container-fluid revs">
-    <h1>Gallery</h1>
+      <h1>Reviews</h1>
       <?php
       $view = new view();
       // var_dump($view->viewData());
