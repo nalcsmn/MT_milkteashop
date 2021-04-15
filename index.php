@@ -1,8 +1,8 @@
 <?php
 require_once 'php/init.php';
 
-// $con = new config();
-// $con->con();
+$con = new config();
+$con->con();
 
 
 ?>
@@ -40,8 +40,8 @@ require_once 'php/init.php';
             <div class="navbar-nav ml-auto">
               <a class="nav-item nav-link active navitem" href="index.php">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link navitem" href="#gallery">Gallery</a>
-              <a class="nav-item nav-link navitem" href="#Aboutuz">About Us</a>
-              <a class="nav-item nav-link navitem" href="#Review">Review</a>
+              <a class="nav-item nav-link navitem" href="#Aboutuzz">About Us</a>
+              <a class="nav-item nav-link navitem" href="#Revs">Review</a>
               <a class="nav-item nav-link navitem" href="testimonial.php">Admin</a>
             </div>
           </div>
@@ -59,7 +59,7 @@ require_once 'php/init.php';
         </div>
 
         <div class="col-lg-6">
-          <img class="title-image" src="img/melktea.png" alt="melktea-mockup" />
+          <img class="title-image" href="#Revs" src="img/melktea.png" alt="melktea-mockup" />
         </div>
       </div>
     </div>
@@ -137,7 +137,7 @@ require_once 'php/init.php';
 
   </section>
 
-  <section class="Aboutuz">
+  <section class="Aboutuz" id="Aboutuzz">
     <div class="carous">
       <div id="carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-controls">
@@ -171,7 +171,7 @@ require_once 'php/init.php';
             <div class="container">
               <h2>BRAND STORY</h2>
               <p>Ma Neil LA TEA was founded at Philippines 2021, and from there it has delivered consistently. In terms of bubble tea, Ma Neil LA TEA now has become the
-                leading brand in the fresh tea beverage industry. <br/>
+                leading brand in the fresh tea beverage industry. <br />
 
                 Ma Neil LA TEA continues to embrace tradition and unleash bold innovations to be a leading brand in the freshly-made drinks industry.</p>
             </div>
@@ -181,10 +181,36 @@ require_once 'php/init.php';
     </div>
   </section>
 
+  <section class="Aboutuz" id="Aboutuzz">
+    <div class="container-fluid revs">
+      <?php
+      insertReview();
+      ?>
+      <form action="" method="GET">
+        <div class="row">
+          <div class="col-md-12 form-group ">
+            <input class="form-control" class="align-center" type="text" name="items" placeholder="Enter your review! " required />
 
+          </div>
+          <div class="col-md">
+            <input class="btn review-button" type="submit" value="Submit" />
+          </div>
+        </div>
+      </form>
+      </div>
+  </section>
+  <section class="reviewP" id="Aboutuzz">
+    <div class="container-fluid revs">
+    <?php
+      $view = new view();
+      // var_dump($view->viewData());
+      $view->viewGui();
+    
+      ?>
+      </div>
+  </section>
 
-
-
+  
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

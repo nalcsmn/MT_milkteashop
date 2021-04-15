@@ -8,6 +8,14 @@ font-family: 'Indie Flower', cursive; */
 #ffaaa7 */
 
 /* #f39189 #bb8082 #6e7582 #046582  */
+
+.container-fluid {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .logo {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -30,7 +38,7 @@ html {
 /* navbar */
 
 .navcon {
-  background-color: #b7e9db;
+  background-color: #98ddca;
 }
 
 .navitem {
@@ -123,7 +131,7 @@ html {
 
 /* gallery */
 .gallerySec{
- 
+ position: relative;
   min-height: 100vh;
 }
 
@@ -194,7 +202,7 @@ html {
 	min-height: 100vh;
 	background-position: center;
 	background-size: cover;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5);padding-bottom: 20px;
   
 
 }
@@ -336,10 +344,23 @@ html {
 }
 
 
+/* review */
 
 
+.revs {
+  padding: 3% 10% 7%;
+  text-align: center;
+}
 
 
+.reviewP{
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+  
+
+}
 
 @media(max-width: 768px) {
   body {

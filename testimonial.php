@@ -46,22 +46,12 @@ require_once 'php/init.php';
   <div class="container mt-5">
     <?php
 
-    insertT();
+  
     deleteT();
     editT();
     ?>
 
-    <form action="" method="GET">
-      <div class="row">
-        <div class="col-md-9 form-group">
-          <input class="form-control" type="text" name="items" placeholder="Insert New Task" required />
-
-        </div>
-        <div class="col-md">
-          <input class="btn btn-success" type="submit" value="Add Task" />
-        </div>
-      </div>
-    </form>
+    
       <?php
       $view = new view();
       // var_dump($view->viewData());
